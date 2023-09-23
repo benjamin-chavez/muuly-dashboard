@@ -1,5 +1,5 @@
 /dist
-.env
+
 .DS_Store
 /uploads
 /node_modules
@@ -24,3 +24,8 @@ build
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.vercel
+
+
+.env
+.env.development.local
