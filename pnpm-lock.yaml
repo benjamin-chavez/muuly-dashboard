@@ -25,10 +25,10 @@ dependencies:
     version: 1.0.2(medusa-interfaces@1.3.7)
   '@medusajs/icons':
     specifier: ^1.0.0
-    version: 1.0.0(react@18.2.0)
+    version: 1.0.1(react@18.2.0)
   '@medusajs/medusa':
     specifier: ^1.16.0
-    version: 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
+    version: 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
   '@medusajs/ui':
     specifier: ^1.0.0
     version: 1.0.0(@types/react@17.0.40)(react-dom@18.2.0)(react@18.2.0)
@@ -1885,6 +1885,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2601,7 +2602,7 @@ packages:
       '@medusajs/medusa': ^1.14.0
     dependencies:
       '@medusajs/admin-ui': 2.1.2(@medusajs/medusa@1.16.1)(@types/node@17.0.45)(@types/react@17.0.40)(csstype@3.1.2)(esbuild@0.17.18)(eslint@6.8.0)(typescript@4.9.5)
-      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
+      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
       '@medusajs/ui': 1.0.0(@types/react@17.0.40)(react-dom@18.2.0)(react@18.2.0)
       '@medusajs/ui-preset': 1.0.0(tailwindcss@3.3.3)
       '@rollup/plugin-alias': 5.0.0(rollup@3.20.7)
@@ -2758,8 +2759,8 @@ packages:
       medusa-interfaces: 1.3.7
     dev: false
 
-  /@medusajs/icons@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-ta0WZLIz4A5EamHTxQLvKDqwGpVu73HGTqVDfnJ0IdGfKnP8IPY7KT/sSwuDnWiPp0WpLxGh/S8xw7aaYkRPng==}
+  /@medusajs/icons@1.0.1(react@18.2.0):
+    resolution: {integrity: sha512-Wuru5RhTYj48dPqGYX35yf580r1LTPTG6hClpzmHBvCGDFG4ymH2VUQ25uzt1Ng1x1UWFvLhIvHi9Uwd7AAyiw==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x
     dependencies:
@@ -2823,7 +2824,7 @@ packages:
     peerDependencies:
       '@medusajs/medusa': ^1.12.0
     dependencies:
-      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
+      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
       axios: 0.24.0
       cross-env: 5.2.1
       qs: 6.11.2
@@ -2833,7 +2834,7 @@ packages:
       - debug
     dev: false
 
-  /@medusajs/medusa@1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17):
+  /@medusajs/medusa@1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17):
     resolution: {integrity: sha512-ayzBgNGqpP1yB2c/v7hjoeDlEcmNhj5qCLJ79xPZN0GXiWWns9s7tqADO+1n0Dgag1osyvYYeml1TkpmLwGLZA==}
     hasBin: true
     peerDependencies:
@@ -2864,7 +2865,7 @@ packages:
       fs-exists-cached: 1.0.0
       glob: 7.2.3
       ioredis: 5.3.2
-      ioredis-mock: 8.4.0(@types/ioredis-mock@8.2.2)(ioredis@5.3.2)
+      ioredis-mock: 8.4.0(@types/ioredis-mock@8.2.3)(ioredis@5.3.2)
       iso8601-duration: 1.3.0
       jsonwebtoken: 9.0.2
       lodash: 4.17.21
@@ -2999,7 +3000,7 @@ packages:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@medusajs/icons': 1.0.0(react@18.2.0)
+      '@medusajs/icons': 1.0.1(react@18.2.0)
       '@radix-ui/react-alert-dialog': 1.0.4(@types/react@17.0.40)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-avatar': 1.0.3(@types/react@17.0.40)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-checkbox': 1.0.4(@types/react@17.0.40)(react-dom@18.2.0)(react@18.2.0)
@@ -6375,8 +6376,8 @@ packages:
       '@types/node': 17.0.45
     dev: false
 
-  /@types/ioredis-mock@8.2.2:
-    resolution: {integrity: sha512-bnbPHOjxy4TUDjRh61MMoK2QvDNZqrMDXJYrEDZP/HPFvBubR24CQ0DBi5lgWhLxG4lvVsXPRDXtZ03+JgonoQ==}
+  /@types/ioredis-mock@8.2.3:
+    resolution: {integrity: sha512-7veA+v2QXjPBvmuYDSyXcfcgCzlpMxa9z51g1+bZXLZ97teCmEs9qYiK9X/h7camGAJJvTiFHiE4mT8CNaqQlA==}
     dependencies:
       ioredis: 5.3.2
     transitivePeerDependencies:
@@ -7105,6 +7106,7 @@ packages:
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+    requiresBuild: true
 
   /bl@2.2.1:
     resolution: {integrity: sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==}
@@ -8798,6 +8800,7 @@ packages:
   /fill-range@7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       to-regex-range: 5.0.1
 
@@ -9538,7 +9541,7 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /ioredis-mock@8.4.0(@types/ioredis-mock@8.2.2)(ioredis@5.3.2):
+  /ioredis-mock@8.4.0(@types/ioredis-mock@8.2.3)(ioredis@5.3.2):
     resolution: {integrity: sha512-ZB+Wj9kzYbYcPrU2Xr61Fo+Fcc8Y1/sAnc/8sCKhyi69C4lQf7cdTEqiqRwneICX2OwgGtpCw8Udr7GEyZixOQ==}
     engines: {node: '>=12.22'}
     peerDependencies:
@@ -9547,7 +9550,7 @@ packages:
     dependencies:
       '@ioredis/as-callback': 3.0.0
       '@ioredis/commands': 1.2.0
-      '@types/ioredis-mock': 8.2.2
+      '@types/ioredis-mock': 8.2.3
       fengari: 0.1.4
       fengari-interop: 0.1.3(fengari@0.1.4)
       ioredis: 5.3.2
@@ -9590,6 +9593,7 @@ packages:
   /is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       binary-extensions: 2.2.0
 
@@ -9669,6 +9673,7 @@ packages:
   /is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
+    requiresBuild: true
 
   /is-obj@2.0.0:
     resolution: {integrity: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==}
@@ -10833,7 +10838,7 @@ packages:
       medusa-react:
         optional: true
     dependencies:
-      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
+      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
       body-parser: 1.20.2
       express: 4.18.2
       medusa-core-utils: 1.2.0
@@ -10851,7 +10856,7 @@ packages:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
     dependencies:
-      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.2)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
+      '@medusajs/medusa': 1.16.1(@babel/core@7.22.20)(@types/ioredis-mock@8.2.3)(medusa-interfaces@1.3.7)(typeorm@0.3.17)
       '@medusajs/medusa-js': 6.0.4(@medusajs/medusa@1.16.1)
       '@tanstack/react-query': 4.22.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
@@ -10904,6 +10909,7 @@ packages:
 
   /memory-pager@1.5.0:
     resolution: {integrity: sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -11233,6 +11239,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.7:
     resolution: {integrity: sha512-YlCCc6Wffkx0kHkmam79GKvDQ6x+QZkMjFGrIMxgFNILFvGSbCp2fCBC55pGTT9gVaz8Na5CLmxt/urtzRv36w==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -12896,6 +12903,7 @@ packages:
   /readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
+    requiresBuild: true
     dependencies:
       picomatch: 2.3.1
 
@@ -13472,6 +13480,7 @@ packages:
 
   /sparse-bitfield@3.0.3:
     resolution: {integrity: sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ==}
+    requiresBuild: true
     dependencies:
       memory-pager: 1.5.0
     dev: true
@@ -13946,6 +13955,7 @@ packages:
   /to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dependencies:
       is-number: 7.0.0
 
